@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> J&M Sandwich </title>
+  <h1> J&M Sandwich Shop </h1>
+  <h3>Build the sandwich of your dreams!</h3>
+</head>
+<body>
+
+   <fieldset>
+    <legend>Select Protein:</legend>
+    <input type="checkbox" name="meat" value="ham">Ham
+    <input type="checkbox" name="meat" value="turkey">Turkey
+    <input type="checkbox" name="meat" value="roastBeef">Roast Beef
+    <input type="checkbox" name="meat" value="meetball">Meetball
+    <input type="checkbox" name="meat" value="bacon">Bacon
+    <input type="checkbox" name="meat" value="chicken">Chicken Breast
+
+
+  </fieldset>
+
+
+  <fieldset>
+    <legend>Select Bread:</legend>
+    <input type="checkbox" name="bread" value="white">White
+    <input type="checkbox" name="bread" value="wheat">Wheat
+    <input type="checkbox" name="bread" value="pumpernickle">Pumpernickle
+    <input type="checkbox" name="bread" value="wrap">Wrap
+  </fieldset>
+
+ 
+  <fieldset>
+    <legend>Select Type of Cheese:</legend>
+    <input type="checkbox" name="cheese" value="cheddar">Cheddar
+    <input type="checkbox" name="cheese" value="swiss">Swiss
+    <input type="checkbox" name="cheese" value="american">American
+    <input type="checkbox" name="cheese" value="provolone">Provolone
+  </fieldset>
+
+  <fieldset>
+    <legend>Choose Condiments:</legend>
+    <input type="checkbox" name="condiments" value="oil">Oil
+    <input type="checkbox" name="condiments" value="vinegar">Vinegar
+    <input type="checkbox" name="condiments" value="mustard">Mustard
+    <input type="checkbox" name="condiments" value="mayo">Mayonaise
+    <input type="checkbox" name="condiments" value="sAndP">Salt and Pepper
+
+  </fieldset>
+
+  <fieldset>
+    <legend>Choose Veggies:</legend>
+    <input type="checkbox" name="veggie" value="lettuce">Lettuce
+    <input type="checkbox" name="veggie" value="tomato">Tomato
+    <input type="checkbox" name="veggie" value="onion">Onion
+
+    <input type="checkbox" name="veggie" value="cucumber">Cucumber
+    <input type="checkbox" name="veggie" value="spinach">Spinach
+    <<input type="checkbox" name="veggie" value="pickle">Pickle (spear)
+  </fieldset>
+
+
+  <button id="sandButton">Make me a Sandwich</button>
+
+  <br>
+
+
+  <div id="custOrder"></div>
+
+  <script src=" //code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script  src ="meat.js" type = "text/javascript" > </script>
+  <script  src ="bread.js" type = "text/javascript" > </script>
+  <script  src ="cheese.js" type = "text/javascript" > </script>
+  <script  src ="condiments.js" type = "text/javascript" > </script>
+  <script  src ="veggies.js" type = "text/javascript" > </script>
+  <script type="text/javascript" src="sandwich.js"></script>
+</body>
+</html>
