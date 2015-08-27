@@ -1,4 +1,4 @@
-var Bread = (function() {
+var Bread = (function(Sandwich) {
 
 	var breadOpt = {	
 		"white": "1.00",
@@ -6,4 +6,12 @@ var Bread = (function() {
 		"pumpernickle": "1.50",
 		"wrap": "1.00"
 	}
-})();
+
+Sandwich.getBreadOpt = function(userIput) {
+		return breadOpt[userInput];
+	}
+
+	return Sandwich;
+
+
+})(Sandwich);
