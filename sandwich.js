@@ -11,8 +11,8 @@ $(document).ready(function(){
               	sandIngred= ($(this).val());
               	console.log(sandIngred);
               	
-              	$("#custOrder").html(Sandwich.getMeatOpt(sandIngred));
-              	// $("#custOrder").html(Sandwich.getCheeseOpt(sandIngred));
+              	$("#meatOrder").html(Sandwich.getMeatOpt(sandIngred));
+              	// $("#cheeseOrder").html(Sandwich.getCheeseOpt(sandIngred));
 
               	// $("#custOrder").html($(forEach(sandIngred));
               	// for (var i =0; i<sandIngred.length; i++) {

@@ -9,8 +9,8 @@ var Sandwich = (function(Sandwich) {
 		
 	}
 
-Sandwich.getVegOpt = function(userIput) {
-		return vegOpt[userInput];
+Sandwich.getCondOpt = function(userIput) {
+		return condOpt[userInput];
 	}
 
 	return Sandwich;
