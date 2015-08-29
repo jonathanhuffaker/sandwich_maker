@@ -1,4 +1,4 @@
-var Bread = (function(Sandwich) {
+var Sandwich = (function(Sandwich) {
 
 	var breadOpt = {	
 		"white": "1.00",

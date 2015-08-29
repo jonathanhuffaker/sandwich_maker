@@ -1,4 +1,4 @@
-var Cheese = (function(Sandwich) {
+var Sandwich = (function(Sandwich) {
 
 	var cheeseOpt = {	
 		"cheddar": "1.00",
